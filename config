@@ -1,0 +1,3 @@
+BOT_TOKEN=TOKEN_HERE
+DATABASE_URL=sqlite+aiosqlite:///{}/.db
+DEBUG=TRUE
