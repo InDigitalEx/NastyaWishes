@@ -4,7 +4,7 @@ aiogram
 
 # Database
 SQLAlchemy
-aiosqlite
+aiomysql
 
 # Pydantic
 pydantic

@@ -5,6 +5,7 @@ from pydantic_settings import BaseSettings, SettingsConfigDict
 class Config(BaseSettings):
     bot_token: SecretStr
     database_url: SecretStr
+    default_photo: str
     debug: bool
 
     model_config = SettingsConfigDict(
