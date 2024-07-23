@@ -23,7 +23,7 @@ class Messages(ABC):
 
     SIMPLE_WISH = '<b>{caption}</b> - {href}'
     SIMPLE_WISH_WITHOUT_HREF = '<b>{caption}</b>'
-    WISH: Final = '<b>🎀 {caption} 🎀</b>\n\n{href}'
+    WISH: Final = '<b>🎀 {caption}</b>\n\n{href}'
     WISH_HREF: Final = '<a href="{link_url}"><b>Ссылочка</b></a>'
 
     PICKED: Final = 'Ура, ты забронировал подарочек 🥺'
