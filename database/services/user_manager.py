@@ -33,3 +33,9 @@ class UserManager:
         if user is None:
             return await self.create_user(check_exists=False)
         return user
+
+    async def get_all_users(self):
+        async with self._session_maker.begin() as session:
+            statement = select(User)
+            result = await session.execute(statement)
+            return result.scalars().all()
